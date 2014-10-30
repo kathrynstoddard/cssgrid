@@ -1,6 +1,3 @@
-* {
-  border: 1px solid red;
-}
 *{
   -webkit-webkit-box-sizing: border-box;
   -moz-webkit-box-sizing: border-box;
@@ -8,13 +5,16 @@
   -o-webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+.grid {
+  margin: 0 auto;
+  /* max-width: 1200px; */
+  width: 100%;
+}
+.end {
+  flex-flow: column-reverse;
+}
 .row {
   display: flex;
-}
-@media screen and (max-width: 500px) {
-  p {
-    display: none;
-  }
 }
 .row {
   width: 100%;
