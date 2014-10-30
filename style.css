@@ -1,0 +1,40 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.title {
+  height: 80px;
+  background-color: #33BEBE;
+  margin-bottom: 25px;
+}
+.title h1 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  display: inline-block;
+  font-family: Arial, serif;
+  text-transform: uppercase;
+  color: white;
+  font-weight: normal;
+  padding-left: 15px;
+}
+.app {
+  display: -webkit-flex;
+  display: flex;
+}
+.screenshot {
+  width: 25%;
+  max-width: 460px;
+}
+.screenshot img {
+  width: 95%;
+}
+.description {
+  width: 75%;
+  max-width: 705px;
+}
