@@ -13,3 +13,21 @@
 .page-title {
   text-align: right;
 }
+.page-title h1{
+  font-weight: 300;
+}
+.page-title h4 {
+  font-weight: 100;
+}
+.featured-work h2 {
+  font-weight: 100;
+  font-size: 1.25em;
+}
+.featured-work h3{
+  text-align: center;
+  font-weight: 400;
+}
+.featured-work img {
+  display: block;
+  margin: 0 auto;
+}
